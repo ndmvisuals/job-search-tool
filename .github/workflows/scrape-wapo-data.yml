@@ -3,7 +3,7 @@ name: scrape-wapo-data
 on:  
   workflow_dispatch:
   schedule:
-    - cron:  '30 17  * *'
+    - cron:  '30 17 * * *'
 
 jobs:
   scrape:
