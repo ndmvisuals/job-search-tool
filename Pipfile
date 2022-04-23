@@ -11,6 +11,7 @@ requests = "*"
 tqdm = "*"
 ipykernel = "*"
 beautifulsoup4 = "*"
+tweepy = "*"
 
 [dev-packages]
 

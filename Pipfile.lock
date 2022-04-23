@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "217493d6b5a645ac189fc0a62cfc576b7ff1e2f90a906f7d5019f57b95feba06"
+            "sha256": "ca8f48cf8407b51983b34602e9f249fd5d3c3ec39656886d4dffbe9326bea7ba"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -303,6 +303,14 @@
             "markers": "python_version >= '3.10'",
             "version": "==1.22.3"
         },
+        "oauthlib": {
+            "hashes": [
+                "sha256:23a8208d75b902797ea29fd31fa80a15ed9dc2c6c16fe73f5d346f83f6fa27a2",
+                "sha256:6db33440354787f9b7f3a6dbd4febf5d0f93758354060e802f6c06cb493022fe"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==3.2.0"
+        },
         "outcome": {
             "hashes": [
                 "sha256:c7dd9375cfd3c12db9801d080a3b63d4b0a261aa996c4c13152380587288d958",
@@ -546,6 +554,14 @@
             "index": "pypi",
             "version": "==2.27.1"
         },
+        "requests-oauthlib": {
+            "hashes": [
+                "sha256:2577c501a2fb8d05a304c09d090d6e47c306fef15809d102b327cf8364bddab5",
+                "sha256:75beac4a47881eeb94d5ea5d6ad31ef88856affe2332b9aafb52c6452ccf0d7a"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==1.3.1"
+        },
         "selenium": {
             "hashes": [
                 "sha256:14d28a628c831c105d38305c881c9c7847199bfd728ec84240c5e86fa1c9bd5a"
@@ -678,11 +694,16 @@
             "markers": "python_version >= '3.5'",
             "version": "==0.9.2"
         },
-        "urllib3": {
-            "extras": [
-                "secure",
-                "socks"
+        "tweepy": {
+            "hashes": [
+                "sha256:8ba5774ac1663b09e5fce1b030daf076f2c9b3ddbf2e7e7ea0bae762e3b1fe3e",
+                "sha256:f281bb53ab3ba999ff5e3d743d92d3ed543ee5551c7250948f9e56190ec7a43e"
             ],
+            "index": "pypi",
+            "version": "==4.8.0"
+        },
+        "urllib3": {
+            "extras": [],
             "hashes": [
                 "sha256:44ece4d53fb1706f667c9bd1c648f5469a2ec925fcf3a776667042d645472c14",
                 "sha256:aabaf16477806a5e1dd19aa41f8c2b7950dd3c746362d7e3223dbe6de6ac448e"
