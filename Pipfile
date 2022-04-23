@@ -12,6 +12,7 @@ tqdm = "*"
 ipykernel = "*"
 beautifulsoup4 = "*"
 tweepy = "*"
+jupyterlab = "*"
 
 [dev-packages]
 
