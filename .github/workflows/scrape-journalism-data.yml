@@ -1,4 +1,4 @@
-name: scrape-wapo-data
+name: scrape-journalism-data
 
 on:  
   workflow_dispatch:
@@ -15,12 +15,15 @@ jobs:
       with:
         fetch-depth: 0
    
-    # Step 3: Install requirements, so Python script can run
+    # Step 2: Install requirements, so Python script can run
     - name: Install requirements
       run: python -m pip install pandas requests selenium beautifulsoup4 webdriver-manager tqdm
+    # Step 3    
+    - name: Run script to create main csv
+      run: python wapo-job-search-tool.py     
     # Step 4    
     - name: Run script to create main csv
-      run: python job-search-tool.py     
+      run: python npr-job-search-tool.py  
     # Step 5
     - name: Commit and push if it changed
       run: |-
