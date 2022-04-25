@@ -133,7 +133,7 @@ for job in ls_jobs:
     
 
     try:
-        url = title_chunk["href"]
+        url = f"https://recruiting.ultipro.com{title_chunk["href"]}"
     except:
         url = "NA"
         
