@@ -19,12 +19,15 @@ jobs:
     - name: Install requirements
       run: python -m pip install pandas requests selenium beautifulsoup4 webdriver-manager tqdm
     # Step 3    
-    - name: Run script to create main csv
+    - name: Scrape WAPO
       run: python wapo-job-search-tool.py     
     # Step 4    
-    - name: Run script to create main csv
+    - name: Scrape NPR
       run: python npr-job-search-tool.py  
-    # Step 5
+    # Step 5    
+    - name: Scrape NYT
+      run: python nyt-job-search-tool.py  
+    # Step 6
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
