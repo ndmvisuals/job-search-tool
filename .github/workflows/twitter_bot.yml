@@ -20,6 +20,12 @@ jobs:
       run: python -m pip install pandas requests selenium beautifulsoup4 webdriver-manager tqdm tweepy
     # Step 3    
     - name: Tweet
+      env:
+        CONSUMER_KEY: ${{secrets.CONSUMER_KEY  }}
+        CONSUMER_SECRET: ${{secrets.CONSUMER_SECRET  }}
+        ACCESS_TOKEN: ${{secrets.ACCESS_TOKEN  }}
+        ACCESS_TOKEN_SECRET: ${{secrets.ACCESS_TOKEN_SECRET  }}
+        BEARER_TOKEN: ${{secrets.BEARER_TOKEN  }}
       run: python job-search-twitter-bot.py  
   
     # Step 4
