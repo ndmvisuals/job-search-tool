@@ -159,7 +159,7 @@ client = tweepy.Client(consumer_key= os.environ['CONSUMER_KEY'],
 
 # In[5]:
 
-client.create_tweet(text= "test from github")
+client.create_tweet(text= "test from github", user_auth = False)
 
 #today = date.today()
 #yesterday = today - timedelta(days = 1)
