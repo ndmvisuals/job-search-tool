@@ -150,33 +150,33 @@ def publish_tweet(main_tweet, thread_post, client):
 #                        access_token_secret= keys["access_token_secret"],
 #                        bearer_token= keys["bearer_token"])
 
-client = tweepy.Client(consumer_key= os.environ['CONSUMER_KEY'],
-                       consumer_secret=os.environ['CONSUMER_SECRET'],
-                       access_token= os.environ['ACCESS_TOKEN'],
-                       access_token_secret= os.environ['ACCESS_TOKEN_SECRET'],
-                       bearer_token= os.environ['BEARER_TOKEN'])
+client = tweepy.Client(consumer_key= os.environ.get('CONSUMER_KEY'),
+                       consumer_secret= os.environ.get('CONSUMER_SECRET'),
+                       access_token= os.environ.get('ACCESS_TOKEN'),
+                       access_token_secret= os.environ.get('ACCESS_TOKEN_SECRET'),
+                       bearer_token= os.environ.get('BEARER_TOKEN'))
 
 
 # In[5]:
 
-client.create_tweet(text= "test from github")
-
-#today = date.today()
-#yesterday = today - timedelta(days = 1)
 
 
-#schedule = [[ "@washingtonpost", df_wapo, yesterday, "Yesterday"], 
-#["@npr", df_npr, yesterday, "Yesterday" ], 
-#["@nyt", df_nyt, yesterday, "Yesterday"]  ]
+today = date.today()
+yesterday = today - timedelta(days = 1)
 
-#for post in schedule:
-#    main_tweet, thread_posts, tweet_status = construct_tweet(post[0], post[1], post[2], post[3])
 
-#    print(main_tweet)
-#    print(tweet_status)
-#    for i in thread_posts:
-#        print(i)
+schedule = [[ "@washingtonpost", df_wapo, yesterday, "Yesterday"], 
+["@npr", df_npr, yesterday, "Yesterday" ], 
+["@nyt", df_nyt, yesterday, "Yesterday"]  ]
 
-#    if tweet_status == "y":
-#        publish_tweet(main_tweet, thread_posts, client)   
+for post in schedule:
+    main_tweet, thread_posts, tweet_status = construct_tweet(post[0], post[1], post[2], post[3])
+
+    print(main_tweet)
+    print(tweet_status)
+    for i in thread_posts:
+        print(i)
+
+    if tweet_status == "y":
+        publish_tweet(main_tweet, thread_posts, client)   
 
