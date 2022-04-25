@@ -137,6 +137,7 @@ def publish_tweet(main_tweet, thread_post, client):
     for thread in thread_post:
         client.create_tweet(text = thread, in_reply_to_tweet_id= main_tweet_id)    
     
+    pass
    
 
 
