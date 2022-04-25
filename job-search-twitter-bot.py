@@ -19,11 +19,11 @@ from datetime import timedelta
 # In[2]:
 
 
-def get_keys(path):
-    with open(path) as f:
-        return json.load(f)
+#def get_keys(path):
+#    with open(path) as f:
+#        return json.load(f)
         
-keys = get_keys("keys.txt")
+#keys = get_keys("keys.txt")
 
 
 
