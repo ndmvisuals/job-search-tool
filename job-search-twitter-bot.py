@@ -150,16 +150,16 @@ def publish_tweet(main_tweet, thread_post, client):
 #                        access_token_secret= keys["access_token_secret"],
 #                        bearer_token= keys["bearer_token"])
 
-client = tweepy.Client(consumer_key= os.environ['CONSUMER_KEY'],
-                       consumer_secret=os.environ['CONSUMER_SECRET'],
-                       access_token= os.environ['ACCESS_TOKEN'],
-                       access_token_secret= os.environ['ACCESS_TOKEN_SECRET'],
-                       bearer_token= os.environ['BEARER_TOKEN'])
+client = tweepy.Client(consumer_key= os.environ.get('CONSUMER_KEY'),
+                       consumer_secret= os.environ.get('CONSUMER_SECRET'),
+                       access_token= os.environ.get('ACCESS_TOKEN'),
+                       access_token_secret= os.environ.get('ACCESS_TOKEN_SECRET'),
+                       bearer_token= os.environ.get('BEARER_TOKEN'))
 
 
 # In[5]:
 
-client.create_tweet(text= "test from github", user_auth = False)
+client.create_tweet(text= "test from github")
 
 #today = date.today()
 #yesterday = today - timedelta(days = 1)
