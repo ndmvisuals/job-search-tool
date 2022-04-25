@@ -158,23 +158,24 @@ client = tweepy.Client(consumer_key= os.environ['CONSUMER_KEY'],
 
 # In[5]:
 
+client.create_tweet(text= "test from github")
 
-today = date.today()
-yesterday = today - timedelta(days = 1)
-print(yesterday)
+#today = date.today()
+#yesterday = today - timedelta(days = 1)
 
-schedule = [[ "@washingtonpost", df_wapo, yesterday, "Yesterday"], 
-["@npr", df_npr, yesterday, "Yesterday" ], 
-["@nyt", df_nyt, yesterday, "Yesterday"]  ]
 
-for post in schedule:
-    main_tweet, thread_posts, tweet_status = construct_tweet(post[0], post[1], post[2], post[3])
+#schedule = [[ "@washingtonpost", df_wapo, yesterday, "Yesterday"], 
+#["@npr", df_npr, yesterday, "Yesterday" ], 
+#["@nyt", df_nyt, yesterday, "Yesterday"]  ]
 
-    print(main_tweet)
-    print(tweet_status)
-    for i in thread_posts:
-        print(i)
+#for post in schedule:
+#    main_tweet, thread_posts, tweet_status = construct_tweet(post[0], post[1], post[2], post[3])
 
-    if tweet_status == "y":
-        publish_tweet(main_tweet, thread_posts, client)   
+#    print(main_tweet)
+#    print(tweet_status)
+#    for i in thread_posts:
+#        print(i)
+
+#    if tweet_status == "y":
+#        publish_tweet(main_tweet, thread_posts, client)   
 
