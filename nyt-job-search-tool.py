@@ -180,6 +180,7 @@ for job in tqdm(ls_jobs):
         url = soup.find("div", {"class":"css-b3pn3b"})     
         url = url.find("a")
         url = url["href"]
+        url = url.rsplit('/', 1)[0]
     except:
         url = "NA"
     job = {"company": "New York Times", "job_title": job_title,"job_location":job_location, "job_duration": job_duration,"date_posted": date_posted, "url":url, }
