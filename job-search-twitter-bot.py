@@ -44,6 +44,7 @@ df_npr = pd.read_csv("https://raw.githubusercontent.com/ndmvisuals/job-search-to
 
 # NYT
 df_nyt = pd.read_csv("https://raw.githubusercontent.com/ndmvisuals/job-search-tool/main/data/nyt-jobs.csv", parse_dates = ["date_posted"])
+df_nyt["job_duration"] = df_nyt["job_duration"].mask(df_nyt["job_duration"] == "FULL_TIME", "full time")
 
 
 # In[4]:
