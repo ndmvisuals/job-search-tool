@@ -167,9 +167,10 @@ yesterday = today - timedelta(days = 1)
 
 
 schedule = [[ "@washingtonpost", df_wapo, yesterday, "Yesterday"], 
+["@npr", df_npr, yesterday, "Yesterday" ],
 ["@nyt", df_nyt, yesterday, "Yesterday"]  ]
 
-#["@npr", df_npr, yesterday, "Yesterday" ], 
+
 
 for post in schedule:
     main_tweet, thread_posts, tweet_status = construct_tweet(post[0], post[1], post[2], post[3])
