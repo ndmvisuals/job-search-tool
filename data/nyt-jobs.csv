@@ -1,4 +1,8 @@
 company,job_title,job_location,job_duration,date_posted,url
+New York Times,Executive Assistant,"New York, NY",FULL_TIME,2022-05-11,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Executive-Assistant_REQ-012570
+New York Times,"Research Lead, Engagement Audience Insights","New York, NY",FULL_TIME,2022-05-11,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Research-Lead--Engagement-Audience-Insights_REQ-012569
+New York Times,"Senior Program Manager, Risk and Compliance","New York, NY",FULL_TIME,2022-05-11,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Senior-Program-Manager--Risk-and-Compliance_REQ-012568
+New York Times,Senior Mobile QA Engineer,"New York, NY",FULL_TIME,2022-05-11,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Senior-Mobile-QA-Engineer_REQ-012555-1
 New York Times,Contracts Manager,"New York, NY",FULL_TIME,2022-05-10,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Contracts-Manager_REQ-012557
 New York Times,Messaging Tools Software Engineer,"New York, NY",FULL_TIME,2022-05-10,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Messaging-Tools-Software-Engineer_REQ-012520-1
 New York Times,"Staff Engineer, Messaging Capabilities","New York, NY",FULL_TIME,2022-05-10,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Lead-Software-Engineer_REQ-008677-2
@@ -9,9 +13,8 @@ New York Times,Client Coordinator,"New York, NY",FULL_TIME,2022-05-10,https://ny
 New York Times,"HR Business Partner, Global Advertising","New York, NY",FULL_TIME,2022-05-09,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/HRBP--Global-Advertising_REQ-012085
 New York Times,Talent Acquisition Coordinator,"New York, NY",FULL_TIME,2022-05-09,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Talent-Acquisition-Coordinator_REQ-012556
 New York Times,"Senior Technical Product Manager, Cloud","New York, NY",FULL_TIME,2022-05-09,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Senior-Technical-Product-Manager--Cloud-Platforms--Delivery-Engineering_REQ-010599-2
-New York Times,"Marketing Manager, Wirecutter","New York, NY",FULL_TIME,2022-05-09,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Marketing-Manager--Wirecutter-_REQ-012025-1
 New York Times,Executive Assistant - Corporate Security,"New York, NY",FULL_TIME,2022-05-09,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Executive-Assistant---Corporate-Security_REQ-012443
-New York Times,"Client Service Representative, Healthcare Ad Sales","New York, NY",FULL_TIME,2022-05-09,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Client-Service-Representative--Public-Policy_REQ-012461
+New York Times,Executive Assistant - Corporate Security,NA,FULL_TIME,2022-05-09,NA
 New York Times,AV Operations Manager,"New York, NY",FULL_TIME,2022-05-09,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/AV-Operations-Manager_REQ-012547-1
 New York Times,Sourcing Manager,"New York, NY",FULL_TIME,2022-05-06,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Sourcing-Manager_REQ-012548
 New York Times,"Email + Web Developer, Email Operations","New York, NY",FULL_TIME,2022-05-06,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Email---Web-Developer--Email-Operations_REQ-012451-1
@@ -34,7 +37,7 @@ New York Times,"Fact Checker, Opinion Audio (Temporary)","New York, NY",FULL_TIM
 New York Times,"Lead Product Designer, Platforms","New York, NY",FULL_TIME,2022-05-04,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Lead-Product-Designer--Platforms_REQ-012413-1
 New York Times,Customer Service Content Development Associate Manager,"New York, NY",FULL_TIME,2022-05-04,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Customer-Service-Content-Development-Associate-Manager_REQ-012533-1
 New York Times,Art Director,"New York, NY",FULL_TIME,2022-05-04,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Senior-Art-Director_REQ-011323-1
-New York Times,Media Reporter,Posted 7 Days Ago,FULL_TIME,2022-05-04,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/Media-Reporter_REQ-012531
+New York Times,Media Reporter,Posted 8 Days Ago,FULL_TIME,2022-05-04,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/Media-Reporter_REQ-012531
 New York Times,Supervising Production Manager,"New York, NY",PART_TIME,2022-05-03,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Supervising-Production-Manager_REQ-012225-1
 New York Times,Senior Software Engineer - Cloud Provisioning,"New York, NY",FULL_TIME,2022-05-03,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Senior-Software-Engineer---Cloud-Provisioning_REQ-012505-1
 New York Times,"Staff Engineer, Observability","New York, NY",FULL_TIME,2022-05-03,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Staff-Engineer--Observability_REQ-012502-1
@@ -63,13 +66,13 @@ New York Times,"Staff Engineer, Multimedia","New York, NY",FULL_TIME,2022-04-28,
 New York Times,Project Manager - Partner Revenue Technology,"New York, NY",FULL_TIME,2022-04-28,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Project-Manager---Partner-Revenue-Technology_REQ-012450-1
 New York Times,Instagram Staff Editor (Temporary),"New York, NY",FULL_TIME,2022-04-28,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Instagram-Staff-Editor_REQ-012467-1
 New York Times,Staff Photographer,"New York, NY",FULL_TIME,2022-04-28,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Staff-Photographer_REQ-012466-1
-New York Times,"Manager, Measurement and Insights","New York, NY",FULL_TIME,2022-04-28,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Measurement-Solutions-Manager_REQ-012263-1
+New York Times,Staff Photographer,NA,FULL_TIME,2022-04-28,NA
 New York Times,"Senior Staff Editor, Culture","New York, NY",FULL_TIME,2022-04-27,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Senior-Staff-Editor--Culture_REQ-012444-1
 New York Times,Measurement Analyst,"New York, NY",FULL_TIME,2022-04-27,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Measurement-Analyst_REQ-012426
 New York Times,"Reporter, Real Estate","New York, NY",FULL_TIME,2022-04-27,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Reporter_REQ-011682-1
 New York Times,"Executive Assistant, Chief Product Officer","New York, NY",FULL_TIME,2022-04-27,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Executive-Assistant--Chief-Product-Officer_REQ-012459-1
 New York Times,"Senior Software Development Engineer in Test, Wirecutter",Remote,FULL_TIME,2022-04-27,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/Remote/Senior-Software-Development-Engineer-in-Test--Wirecutter_REQ-012170-1
-New York Times,"Senior Software Development Engineer in Test, Wirecutter",NA,FULL_TIME,2022-04-27,NA
+New York Times,"Engineer, Enterprise Productivity","New York, NY",FULL_TIME,2022-04-26,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Engineer--Enterprise-Productivity_REQ-012319-1
 New York Times,Strategy Manager,"New York, NY",FULL_TIME,2022-04-26,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Strategy-Manager_REQ-012457-1
 New York Times,Senior Strategist - Luxury & Culture,"New York, NY",FULL_TIME,2022-04-25,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Senior-Strategist_REQ-012173-1
 New York Times,"Executive Director, Product Marketing","New York, NY",FULL_TIME,2022-04-25,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Executive-Director--Product-Marketing_REQ-012454-1
@@ -115,7 +118,7 @@ New York Times,"Senior Product Designer, Publishing","New York, NY",FULL_TIME,20
 New York Times,Strategist,"New York, NY",FULL_TIME,2022-04-13,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Strategist_REQ-012342-1
 New York Times,"Director of Program Management, Delivery Engineering","New York, NY",FULL_TIME,2022-04-13,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Director-of-Program-Management--Delivery-Engineering_REQ-012359-1
 New York Times,"Senior Program Manager, Core Platforms","New York, NY",FULL_TIME,2022-04-13,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Senior-Program-Manager--Core-Platforms_REQ-012357-1
-New York Times,"Program Manager, Core Platforms","New York, NY",FULL_TIME,2022-04-13,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Program-Manager--Core-Platforms_REQ-012358-1
+New York Times,"Senior Program Manager, Core Platforms",NA,FULL_TIME,2022-04-13,NA
 New York Times,"Lead Editor, Accessibility and Aging in Place, Wirecutter","New York, NY",FULL_TIME,2022-04-12,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Lead-Editor--Accessibility-and-Aging-in-Place--Wirecutter_REQ-012345
 New York Times,"Specialist, Learning & Development","New York, NY",FULL_TIME,2022-04-12,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Specialist--Learning---Development_REQ-012356
 New York Times,Senior Manager of Learning & Development,"New York, NY",FULL_TIME,2022-04-12,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Senior-Manager-of-Learning---Development_REQ-012355
@@ -245,7 +248,6 @@ New York Times,"Manager, Data & Insights (Cooking)","New York, NY",FULL_TIME,202
 New York Times,"Client Lead, Luxury","New York, NY",FULL_TIME,2022-03-08,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Client-Lead--Luxury_REQ-012015-1
 New York Times,"Managing Director, Head of Writing, Marketing","New York, NY",FULL_TIME,2022-03-08,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Managing-Director--Head-of-Writing--Marketing_REQ-012019-1
 New York Times,"Vice President, Technology and Digital Recruiting","New York, NY",FULL_TIME,2022-03-08,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Vice-President--Technology-and-Digital-Recruiting_REQ-012032
-New York Times,"Manager, Talent Acquisition","New York, NY",FULL_TIME,2022-03-08,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Manager--Talent-Acquisition_REQ-011271
 New York Times,Senior Staff Editor,"New York, NY",FULL_TIME,2022-03-07,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Senior-Staff-Editor_REQ-011974-1
 New York Times,Database Administrator in Publishing Technology,"New York, NY",FULL_TIME,2022-03-07,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Database-Administrator-in-Publishing-Technology_REQ-011827-1
 New York Times,Senior Database Administrator,"New York, NY",FULL_TIME,2022-03-07,https://nytimes.wd5.myworkdayjobs.com/en-US/NYT/job/New-York-NY/Senior-Database-Administrator_REQ-011809-1
